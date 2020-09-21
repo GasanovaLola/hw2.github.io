@@ -39,8 +39,8 @@ console.log("Сумма чётных чисел " + sumch);
 
 //№2.3
 var num = +prompt("Введите число");
-console.log(num);
 while (isNaN(num)) {
+    console.log(num);
     num = prompt("Введите число");
 }
 
